@@ -57,3 +57,22 @@
 @media (max-width:720px){nav a.nav-renew{display:inline-flex}}
 .nav-renew{white-space:nowrap}
 @media (max-width:420px){header{padding:16px 14px}nav{gap:8px}.nav-download{padding:7px 10px}.brand-name{font-size:15px;letter-spacing:1.2px}}
+/* renew block v2: two steps */
+.renew-card{display:block;margin-top:26px;padding:22px;border:1px solid var(--orange);border-radius:14px;background:linear-gradient(160deg,#ff75261c,#141517 55%)}
+.renew-head h3{font-size:20px;margin:0 0 2px}
+.renew-head p:not(.renew-tag){font-size:13px;color:var(--muted);margin:0 0 16px}
+.renew-steps{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.renew-step{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;background:#0f1012;border:1px solid #ffffff14;border-radius:12px;padding:18px 14px 16px}
+.renew-step h4{margin:0 0 10px;font-size:16px}
+.renew-step p{font-size:13px;color:#cfc9c1;line-height:1.6;margin:10px 0 12px}
+.step-no{position:absolute;top:-12px;left:14px;width:26px;height:26px;border-radius:50%;background:var(--orange);color:#17100c;font-weight:800;font-size:14px;display:grid;place-items:center}
+.renew-step img.pay-qr{width:150px;height:auto;border-radius:8px}
+.renew-step img.line-qr{width:120px;height:120px;background:#fff;padding:6px;border-radius:8px}
+.renew-step .line-btn{margin-top:auto;font-size:16px;padding:12px 14px}
+.renew-step .line-btn .line-ico{width:28px;height:28px}
+.renew-help{margin-top:14px;text-align:center}
+.renew-help .text-link{color:#cfc9c1}
+@media (max-width:560px){.renew-steps{grid-template-columns:1fr;gap:22px}.renew-step img.pay-qr{width:180px}}
+.renew-step img.pay-qr{width:170px;height:170px;background:#fff;padding:8px;border-radius:8px;image-rendering:pixelated}
+.pay-info{font-size:13px}
+.pay-info b{color:var(--gold)}
