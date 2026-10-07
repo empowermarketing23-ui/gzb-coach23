@@ -45,3 +45,15 @@
 @media (max-width:480px){.renew-card{flex-direction:column;text-align:left;align-items:flex-start}.renew-card img{width:120px;height:120px}}
 .button.ghost{background:transparent;color:var(--text);border-color:#ffffff40;font-size:14px;padding:10px 18px}
 .button.ghost:hover{background:#ffffff10}
+/* prominent LINE renew button */
+.button.line-btn{display:flex;width:100%;gap:12px;justify-content:center;background:#06C755;border:0;color:#fff;font-size:19px;padding:14px 22px;border-radius:10px;box-shadow:0 0 0 4px #06c75526,0 12px 28px -10px #06c755cc;line-height:1.2;margin-top:4px}
+.button.line-btn:hover{background:#05b34c}
+.line-btn .line-ico{width:34px;height:34px;flex:none}
+.line-btn span{display:flex;flex-direction:column;align-items:flex-start;font-weight:800}
+.line-btn small{font-size:12px;font-weight:500;opacity:.9;margin-top:2px}
+.renew-card>div{flex:1;min-width:0}
+.nav-renew{background:#06C755;color:#fff;padding:8px 16px;border-radius:4px;font-weight:700}
+@media (max-width:720px){.nav-renew{padding:7px 12px}}
+@media (max-width:720px){nav a.nav-renew{display:inline-flex}}
+.nav-renew{white-space:nowrap}
+@media (max-width:420px){header{padding:16px 14px}nav{gap:8px}.nav-download{padding:7px 10px}.brand-name{font-size:15px;letter-spacing:1.2px}}
