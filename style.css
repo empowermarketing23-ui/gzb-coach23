@@ -23,3 +23,15 @@
 .footer-brand .brand-icon{color:var(--orange)}
 .footer-brand .footer-name .brand-sub{font-size:10.5px;font-weight:600;color:var(--gold)}
 @media (max-width:480px){.footer-brand .footer-name{font-size:26px}}
+/* J1 gauge logo + COACH 23 / DASHBOARD wordmark */
+.logo-mark{width:44px;height:44px;flex:none;display:block}
+.brand-name{display:block;font-size:20px;font-weight:800;letter-spacing:2.4px;line-height:1.1;color:var(--text)}
+.brand-top{display:block;font-size:10px;font-weight:700;letter-spacing:2.8px;color:var(--orange);margin-bottom:4px}
+.footer-brand{gap:14px}
+.footer-brand .logo-mark{width:52px;height:52px}
+.footer-brand .brand-name{font-size:24px}
+.footer-brand .brand-top{font-size:11px}
+@media (max-width:480px){.brand-name{font-size:17px;letter-spacing:1.8px}.logo-mark{width:38px;height:38px}.footer-brand .brand-name{font-size:20px}}
+.footer-brand span.brand-name{font-size:24px;font-weight:800;color:var(--text)}
+.footer-brand span.brand-top{font-size:11px;font-weight:700;color:var(--orange)}
+@media (max-width:480px){.footer-brand span.brand-name{font-size:20px}}
