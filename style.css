@@ -35,3 +35,13 @@
 .footer-brand span.brand-name{font-size:24px;font-weight:800;color:var(--text)}
 .footer-brand span.brand-top{font-size:11px;font-weight:700;color:var(--orange)}
 @media (max-width:480px){.footer-brand span.brand-name{font-size:20px}}
+/* renewal via LINE */
+.renew-card{display:flex;gap:20px;align-items:center;margin-top:24px;padding:20px;border:1px solid var(--orange);border-radius:12px;background:linear-gradient(135deg,#ff75261f,#f8c87912)}
+.renew-card img{width:140px;height:140px;border-radius:8px;background:#fff;padding:6px;flex:none}
+.renew-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1px;color:#17100c;background:var(--gold);border-radius:30px;padding:2px 10px;margin:0 0 6px}
+.renew-card h3{margin:0 0 6px}
+.renew-card ol{margin:0 0 12px;padding-left:20px;font-size:14px;color:#d6d1ca;line-height:1.8}
+.renew-card .compact{margin-left:0}
+@media (max-width:480px){.renew-card{flex-direction:column;text-align:left;align-items:flex-start}.renew-card img{width:120px;height:120px}}
+.button.ghost{background:transparent;color:var(--text);border-color:#ffffff40;font-size:14px;padding:10px 18px}
+.button.ghost:hover{background:#ffffff10}
