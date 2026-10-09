@@ -1,4 +1,4 @@
-for(const type of ['tool','manual']){
+for(const type of ['tool','manual','video']){
  const file=window.GZB_RELEASE[type];
  if(file && file.url && file.name){
   const a=document.getElementById(type+'-link');a.href=file.url;a.hidden=false;
